@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page UTM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Bannière Rouge */
+        .banner {
+            background-color: #C51D23; /* Rouge */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            position: relative;
+        }
+
+        .banner b {
+            font-weight: bold;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+
+        .button-container button {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-container button:hover {
+            background-color: #ddd;
+        }
+
+        /* Cartes */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px 20px;
+        }
+
+        .card {
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        .card h3 {
+            color: #C51D23;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .card button {
+            background-color: #C51D23;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .card button:hover {
+            background-color: #A4171D;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bannière Rouge -->
+    <div class="banner">
+        Inscrivez-vous à la plateforme <b>UTM Google For Education</b><br>
+        <b>Profitez</b> de tous les modules Gsuite avec votre compte institutionnel !
+        <div class="button-container">
+            <button>Inscription</button>
+        </div>
+    </div>
+
+    <!-- Cartes -->
+    <div class="container">
+        <div class="card">
+            <h3>Concours de Mutation-réintégration-Deuxième Licence</h3>
+            <p>Concours de Mutation Annuel de l'Université de Tunis El Manar.</p>
+            <button>Accéder</button>
+        </div>
+
+        <div class="card">
+            <h3>Concours de Réorientation</h3>
+            <p>Concours de Réorientation Annuel de l'Université de Tunis El Manar.</p>
+            <button>Accéder</button>
+        </div>
+
+        <div class="card">
+            <h3>Concours des Enseignants Contractuels</h3>
+            <p>Concours des enseignants contractuels de l'Université de Tunis El Manar.</p>
+            <button>Accéder</button>
+        </div>
+
+        <div class="card">
+            <h3>Masteres UTM</h3>
+            <p>Application en ligne d'admission en mastères de l'UTM.</p>
+            <button>Accéder</button>
+        </div>
+
+        <div class="card">
+            <h3>Thèse UTM</h3>
+            <p>Plateforme Thèses de l'Université de Tunis El Manar.</p>
+            <button>Accéder</button>
+        </div>
+    </div>
+
+</body>
+</html>
